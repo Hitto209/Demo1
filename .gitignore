@@ -1,1 +1,15 @@
+
+# specific files
 secrets.txt 
+
+#Ingore folders
+secrets/
+
+#Normal build folders that are hidden
+build/
+dist/
+
+#Ingore files with these extensions (normal files that are hidden)
+*.log
+*.tmp
+*secrets.txt
